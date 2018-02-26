@@ -17,7 +17,7 @@ end
 feature "visitng home page" do
   scenario "the visitor sees title" do
     visit static_pages_home_url
-    expect(page).to have_title "Home | Ruby on Rails Tutorial Sample App"
+    expect(page).to have_title "Ruby on Rails Tutorial Sample App"
   end
 end
 
