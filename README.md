@@ -1,1 +1,1 @@
-# Sample App by Michael Heartl
+# Sample App by Michael Hartl
