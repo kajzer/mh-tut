@@ -12,6 +12,13 @@ User.create!(name:  "Anandomar",
              admin: true,
               activated: true,
              activated_at: Time.zone.now)
+User.create!(name:  "Kajzer",
+             email: "kajezierski@wp.pl",
+             password:              "foobar",
+             password_confirmation: "foobar",
+             admin: true,
+              activated: true,
+             activated_at: Time.zone.now)
 
 99.times do |n|
   name  = Faker::Name.name
